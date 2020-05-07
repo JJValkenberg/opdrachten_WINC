@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice Event Handlers</title>
+    <script defer src="script.js"></script>
+    <!-- Wanneer 'defer' niet is toegevoegd aan de javaScript verwijzing, krijg je een foutmelding: script.js:3 Uncaught TypeError: Cannot read property 'addEventListener' of null
+        at script.js:3  En werkt de 'click' dus niet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="blue-background">
+    <button id="mybutton" type="button" class="btn-alert">Alert Me!</button>
+    <button id="backgroundButton" type="button">Change Background</button>
+</body>
+
+</html>
+
+<!-- - Gebruik een click event en "attach" het click event aan de button
+- Wanneer er op de button geklikt wordt, geef een 
+alert: "button clicked" (net zoals je in de video hebt gezien) !-->
