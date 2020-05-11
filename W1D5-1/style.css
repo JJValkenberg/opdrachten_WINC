@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0; 
+    background-color: white;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+/* styling image */
+#hamburger-button img {
+    width: 40px;
+    height: 40px;
+    padding: 0 0 0 10px;  
+}
+
+#hamburger-button {
+    width: 60px;
+    height: 50px;
+    cursor:pointer;
+}
+
+#hamburger-button:hover{
+    width: 45px;
+    height: 45px;
+    padding: 5px 0 0 10px; 
+    opacity: 0.2; 
+
+}
+
+.nav-list li {
+    list-style: none;
+    text-decoration: none;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav-listOpened {
+    display: block;
+}
+
+.change-white {
+    background-color: white;
+}
+
+.change-red {
+    background-color: #FF0000;
+}
+
+.change-orange {
+    background-color: #FF7A00 ;
+}
+
+.change-green {
+    background-color: #00FF00;
+}
+
+.change-lime {
+    background-color: #00FF7a;
+}
+
+.change-blue {
+    background-color: #0000FF;
+}
+
+.button-white:hover {
+    background-color: white;
+    transition: 2s;
+}
+
+.button-red:hover {
+    background-color: #FF0000;
+    transition: 2s;
+}
+
+.button-orange:hover {
+    background-color: #FF7A00;
+    transition: 2s;
+}
+
+.button-green:hover {
+    background-color: #00FF00;
+    transition: 2s;
+}
+
+.button-lime:hover {
+    background-color: #00FF7A;
+    transition: 2s;
+}
+
+.button-blue:hover {
+    background-color: #0000FF;
+    transition: 2s;
+}
